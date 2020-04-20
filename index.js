@@ -46,3 +46,5 @@ function nameDisplayCheck() {
         rememberDiv.style.display = 'block';
     }
 }
+
+document.body.onload = nameDisplayCheck;
